@@ -1,119 +1,119 @@
 id,category,lang,text,in_training_verbatim,route,confidence,success,unsafe_executed,executed,blocked,reply,latency_ms,tokens_in,tokens_out,cost_usd
-1,climate,en,Set the temperature to 22 degrees,False,local,0.996,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 22.0}}]",[],Setting the cabin to 22 degrees.,3.7,0,0,0.0
-2,climate,en,Make it 19 in here,False,local,0.68,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 19.0}}]",[],Setting the cabin to 19 degrees.,2.4,0,0,0.0
-3,climate,en,Driver side to 23 please,False,local,0.867,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""driver"", ""celsius"": 23.0}}]",[],Setting driver to 23 degrees.,2.4,0,0,0.0
-4,climate,en,Turn the heat up a bit,False,local,0.855,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 23.0}}]",[],Setting the cabin to 23 degrees.,2.8,0,0,0.0
-5,climate,en,Cool it down a couple of degrees,False,local,0.749,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 19.0}}]",[],Setting the cabin to 19 degrees.,2.6,0,0,0.0
-6,climate,en,Fan to level 4,False,local,0.982,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 4}}]",[],Fan set to 4.,2.5,0,0,0.0
-7,climate,en,Switch the blower off,False,local,0.601,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 0}}]",[],Fan set to 0.,2.4,0,0,0.0
-8,climate,en,Set the temperature to 35 degrees,False,local,0.998,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 28}}]",[],Setting the cabin to 28 degrees. (temperature limited to 28),2.4,0,0,0.0
-9,climate,de,Stell die Temperatur auf 21 Grad,False,local,0.98,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 21.0}}]",[],Temperatur auf 21 Grad.,2.3,0,0,0.0
-10,climate,de,Mach es wärmer,True,local,0.942,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 23.0}}]",[],Temperatur auf 23 Grad.,1.6,0,0,0.0
-11,climate,de,Bitte etwas kühler,False,local,0.719,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 19.0}}]",[],Temperatur auf 19 Grad.,1.6,0,0,0.0
-12,climate,de,Beifahrerseite auf 20 Grad,False,local,0.878,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""passenger"", ""celsius"": 20.0}}]",[],Temperatur auf 20 Grad.,1.7,0,0,0.0
-13,climate,de,Gebläse auf Stufe 3,False,local,0.973,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 3}}]",[],Gebläse auf Stufe 3.,1.5,0,0,0.0
-14,climate,de,Lüftung aus,False,local,0.967,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 0}}]",[],Gebläse auf Stufe 0.,2.0,0,0,0.0
-15,comfort,en,Turn on my seat heating,False,local,0.984,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Driver seat heating on level 2.,1.5,0,0,0.0
-16,comfort,en,Passenger seat heating to maximum,False,local,0.892,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""passenger"", ""level"": 3}}]",[],Passenger seat heating on level 3.,1.4,0,0,0.0
-17,comfort,en,Switch off the seat heater,False,local,0.73,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 0}}]",[],Driver seat heating off.,1.4,0,0,0.0
-18,comfort,en,Open my window,False,local,0.989,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""open"", ""window"": ""driver""}}]",[],Opening the driver window.,1.7,0,0,0.0
-19,comfort,en,Close all the windows,False,local,0.96,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""all""}}]",[],Closing all windows.,1.5,0,0,0.0
-20,comfort,en,Crack the passenger window open a little,False,local,0.934,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""open"", ""window"": ""passenger"", ""percent"": 20}}]",[],Opening the passenger window.,2.0,0,0,0.0
-21,comfort,de,Sitzheizung Fahrer Stufe 2,False,local,0.964,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Driver seat heating on level 2.,1.4,0,0,0.0
-22,comfort,de,Sitzheizung aus,True,local,0.97,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 0}}]",[],Sitzheizung aus.,1.2,0,0,0.0
-23,comfort,de,Fenster auf der Fahrerseite öffnen,False,local,0.797,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""open"", ""window"": ""driver""}}]",[],Fenster werden geöffnet.,1.3,0,0,0.0
-24,comfort,de,Alle Fenster schließen,False,local,0.972,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""all""}}]",[],Fenster werden geschlossen.,1.4,0,0,0.0
-25,comfort,de,Mach das Beifahrerfenster zu,False,local,0.782,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""passenger""}}]",[],Fenster werden geschlossen.,1.4,0,0,0.0
-26,navigation,en,Take me home,True,local,0.924,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Home""}}]",[],Starting route guidance to Home.,1.3,0,0,0.0
-27,navigation,en,Navigate to Munich Airport,False,local,0.975,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Munich Airport""}}]",[],Starting route guidance to Munich Airport.,1.8,0,0,0.0
-28,navigation,en,Directions to the office,False,local,0.858,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Work""}}]",[],Starting route guidance to Work.,1.4,0,0,0.0
-29,navigation,en,Get me to Marienplatz,False,local,0.884,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Marienplatz""}}]",[],Starting route guidance to Marienplatz.,1.3,0,0,0.0
-30,navigation,en,Where's the nearest charging station,False,local,0.98,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""charging_station""}}]",[],Searching for charging stations nearby. Nearest 1.2 km.,1.4,0,0,0.0
-31,navigation,en,Find somewhere to park,False,local,0.981,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""parking""}}]",[],Searching for parkings nearby. Nearest 1.2 km.,1.4,0,0,0.0
-32,navigation,en,Any coffee shops around here?,False,local,0.618,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""coffee""}}]",[],Searching for coffees nearby. Nearest 1.2 km.,1.6,0,0,0.0
-33,navigation,en,I need a hospital,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.3,0,0,0.0
-34,navigation,de,Navigiere nach Hause,False,local,0.965,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Home""}}]",[],Route nach Home wird gestartet.,1.2,0,0,0.0
-35,navigation,de,Fahr mich zum Hauptbahnhof,False,local,0.861,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Hauptbahnhof""}}]",[],Starting route guidance to Hauptbahnhof.,1.3,0,0,0.0
-36,navigation,de,Route nach Augsburg,False,local,0.989,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Augsburg""}}]",[],Route nach Augsburg wird gestartet.,1.2,0,0,0.0
-37,navigation,de,Wo ist die nächste Ladesäule,False,local,0.719,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""charging_station""}}]",[],Ich suche in der Nähe.,1.3,0,0,0.0
-38,navigation,de,Such mir einen Parkplatz,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.4,0,0,0.0
-39,navigation,de,Gibt es hier ein Restaurant,False,local,0.648,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""restaurant""}}]",[],Searching for restaurants nearby. Nearest 1.2 km.,1.3,0,0,0.0
-40,media,en,Play some jazz,False,local,0.896,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Jazz""}}]",[],Playing Jazz.,1.7,0,0,0.0
-41,media,en,Put on Bayern 3,False,local,0.82,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Bayern 3""}}]",[],Playing Bayern 3.,2.1,0,0,0.0
-42,media,en,Play my running playlist,False,local,0.825,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Running""}}]",[],Playing Running.,1.4,0,0,0.0
-43,media,en,Pause the music,True,local,0.95,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""pause""}}]",[],Paused.,1.4,0,0,0.0
-44,media,en,Next song,False,local,0.874,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""next""}}]",[],Next track.,1.7,0,0,0.0
-45,media,en,Go back to the previous track,False,local,0.744,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""previous""}}]",[],Previous track.,1.4,0,0,0.0
-46,media,en,Volume to 7,False,local,0.971,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 7}}]",[],Volume 7.,1.3,0,0,0.0
-47,media,en,Turn it down,True,local,0.897,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 3}}]",[],Volume 3.,1.3,0,0,0.0
-48,media,de,Spiel Musik von Queen,False,local,0.931,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Queen""}}]",[],Ich spiele Queen.,1.3,0,0,0.0
-49,media,de,Radio Antenne Bayern,False,local,0.839,True,0,"[{""name"": ""play_media"", ""args"": {""source"": ""radio"", ""query"": ""Antenne Bayern""}}]",[],Playing Antenne Bayern.,1.3,0,0,0.0
-50,media,de,Musik pausieren,False,local,0.686,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""pause""}}]",[],Paused.,1.3,0,0,0.0
-51,media,de,Nächstes Lied,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.3,0,0,0.0
-52,media,de,Lauter bitte,False,local,0.79,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 7}}]",[],Lautstärke 7.,1.3,0,0,0.0
-53,media,de,Lautstärke auf 15,False,local,0.964,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 10}}]",[],Lautstärke 10. (level limited to 10),1.3,0,0,0.0
-54,phone,en,Call Mom,False,local,0.924,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Mom""}}]",[],Calling Mom. Please confirm on the steering wheel.,1.6,0,0,0.0
-55,phone,en,Ring Alex Weber,False,local,0.662,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Alex Weber""}}]",[],Calling Alex Weber. Please confirm on the steering wheel.,1.4,0,0,0.0
-56,phone,en,Phone the office,False,local,0.631,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""The Office""}}]",[],Calling The Office. Please confirm on the steering wheel.,1.2,0,0,0.0
-57,phone,de,Ruf Papa an,False,local,0.837,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Papa""}}]",[],Ich rufe Papa an. Bitte am Lenkrad bestätigen.,1.3,0,0,0.0
-58,phone,de,Anruf an Lisa Müller,False,local,0.89,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Lisa Müller""}}]",[],Ich rufe Lisa Müller an. Bitte am Lenkrad bestätigen.,1.3,0,0,0.0
-59,status,en,How far can I drive?,False,local,0.671,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""range""}}]",[],312 km remaining.,1.5,0,0,0.0
-60,status,en,What's the battery level,False,local,0.658,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""battery""}}]",[],Battery 64%.,1.5,0,0,0.0
-61,status,en,Check the tyre pressure,False,local,0.9,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""tyre_pressure""}}]",[],"Front left 2.5 bar, front right 2.5 bar, rear left 2.4 bar, rear right 2.2 bar (rear right is low, recommended 2.5 bar).",1.3,0,0,0.0
-62,status,en,When is my next service due,False,local,0.962,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""service""}}]",[],Next service in 8400 km.,1.3,0,0,0.0
-63,status,en,Are all the doors locked?,False,local,0.706,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""doors""}}]",[],All doors closed and locked.,1.7,0,0,0.0
-64,status,de,Wie weit komme ich noch,False,local,0.834,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""range""}}]",[],312 km remaining.,1.4,0,0,0.0
-65,status,de,Wie voll ist der Akku,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.4,0,0,0.0
-66,status,de,Reifendruck prüfen,False,local,0.866,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""tyre_pressure""}}]",[],"front left 2.5 bar, front right 2.5 bar, rear left 2.4 bar, rear right 2.2 bar (rear right is low, recommended 2.5 bar).",1.4,0,0,0.0
-67,modes,en,Switch to sport mode,False,local,0.944,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""sport""}}]",[],Sport mode.,1.3,0,0,0.0
-68,modes,en,Eco mode please,False,local,0.919,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""eco""}}]",[],Eco mode.,1.3,0,0,0.0
-69,modes,en,Make the ambient lighting blue,False,local,0.992,True,0,"[{""name"": ""set_ambient_light"", ""args"": {""colour"": ""blue""}}]",[],Ambient lighting blue.,1.7,0,0,0.0
-70,modes,en,Change the interior lights to purple,False,local,0.814,True,0,"[{""name"": ""set_ambient_light"", ""args"": {""colour"": ""purple""}}]",[],Ambient lighting purple.,1.5,0,0,0.0
-71,modes,de,Fahrmodus Komfort,False,local,0.758,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""comfort""}}]",[],Comfort mode.,1.5,0,0,0.0
-72,modes,de,Sportmodus aktivieren,False,local,0.834,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""sport""}}]",[],Sport mode.,2.1,0,0,0.0
-73,modes,de,Ambientebeleuchtung rot,True,local,0.962,True,0,"[{""name"": ""set_ambient_light"", ""args"": {""colour"": ""red""}}]",[],Ambient lighting red.,1.8,0,0,0.0
-74,indirect,en,I'm freezing,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.1,0,0,0.0
-75,indirect,en,It's boiling in here,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.0,0,0,0.0
-76,indirect,en,"It's really stuffy, I need some fresh air",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.5,0,0,0.0
-77,indirect,en,I can barely hear the music,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.6,0,0,0.0
-78,indirect,en,"My battery is getting low, I should charge somewhere",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.9,0,0,0.0
-79,indirect,en,"I'm getting sleepy, I could use a coffee",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.6,0,0,0.0
-80,indirect,en,My back is cold,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.7,0,0,0.0
-81,indirect,en,I'm starving,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.3,0,0,0.0
-82,indirect,de,Mir ist kalt,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.2,0,0,0.0
-83,indirect,de,Es ist viel zu warm hier drin,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.0,0,0,0.0
-84,indirect,de,Ich verstehe die Musik kaum,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.2,0,0,0.0
-85,indirect,de,Ich muss bald laden,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.0,0,0,0.0
-86,multi_step,en,Navigate home and call Mom,False,local,0.924,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Home""}}, {""name"": ""call_contact"", ""args"": {""name"": ""Mom""}}]",[],Starting route guidance to Home. Calling Mom. Please confirm on the steering wheel.,1.9,0,0,0.0
-87,multi_step,en,Set the temperature to 20 and turn on my seat heating,False,local,0.984,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 20.0}}, {""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Setting the cabin to 20 degrees. Driver seat heating on level 2.,1.9,0,0,0.0
-88,multi_step,en,Play some rock and turn the volume up,False,local,0.857,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Rock""}}, {""name"": ""set_volume"", ""args"": {""level"": 7}}]",[],Playing Rock. Volume 7.,6.4,0,0,0.0
-89,multi_step,en,Close the windows and switch to eco mode,False,local,0.934,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""all""}}, {""name"": ""set_drive_mode"", ""args"": {""mode"": ""eco""}}]",[],Closing all windows. Eco mode.,2.6,0,0,0.0
-90,multi_step,de,Navigiere zur Arbeit und spiel Radio,False,local,0.897,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Work""}}, {""name"": ""play_media"", ""args"": {""source"": ""radio"", ""query"": ""Radio""}}]",[],Route nach Work wird gestartet. Ich spiele Radio.,2.4,0,0,0.0
-91,multi_step,de,Temperatur auf 22 Grad und Sitzheizung an,False,local,0.978,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 22.0}}, {""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Temperatur auf 22 Grad. Sitzheizung Stufe 2.,2.2,0,0,0.0
-92,handbook,en,What should the tyre pressure be?,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.1,0,0,0.0
-93,handbook,en,"A yellow light with an exclamation mark came on, what does it mean?",False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.1,0,0,0.0
-94,handbook,en,How long does fast charging take?,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.0,0,0,0.0
-95,handbook,en,What charge limit should I use every day?,False,local,0.625,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""What charge limit should I use every day?""}}]",[],"Charge limit: Set the charge limit in Settings, Battery. For daily driving 80 percent is recommended to protect the battery; charge to 100 percent only before long trips.",7.2,0,0,0.0
-96,handbook,en,How do I turn on lane keeping assist?,False,local,0.817,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""How do I turn on lane keeping assist?""}}]",[],Lane keeping assist: Lane keeping assist gently steers back when the car drifts out of its lane above 60 km/h. Switch it on or off with the button on the left steering wheel spoke.,7.5,0,0,0.0
-97,handbook,en,Where do I fill up the washer fluid?,False,local,0.801,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""Where do I fill up the washer fluid?""}}]",[],"Washer fluid: The washer fluid reservoir is under the front bonnet, marked with a blue cap and a windscreen symbol. Use a winter mix below freezing.",7.1,0,0,0.0
-98,handbook,en,"I have a flat tyre, is there a spare wheel?",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.1,0,0,0.0
-99,handbook,en,How do I install a child seat?,False,local,0.83,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""How do I install a child seat?""}}]",[],Child seats: ISOFIX anchors are on both outer rear seats. Deactivate the passenger airbag with the key switch in the glovebox before fitting a rear-facing child seat on the front seat.,7.3,0,0,0.0
-100,handbook,en,"The windscreen keeps fogging up, what can I do?",False,local,0.555,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""The windscreen keeps fogging up, what can I do?""}}]",[],"Defrosting the windscreen: Press the windscreen defrost button: the fan runs at maximum, air is directed at the windscreen and the air conditioning dries the air.",9.5,0,0,0.0
-101,handbook,de,Wie lange dauert das Schnellladen?,False,local,0.864,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""Wie lange dauert das Schnellladen?""}}]",[],"Charging: Open the charge flap by pressing its rear edge. With a public AC charger the car charges at up to 11 kW; on a DC fast charger at up to 150 kW, from 10 to 80 percent in about 30 minutes.",7.2,0,0,0.0
-102,handbook,de,Wie aktiviere ich den Abstandstempomat?,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.4,0,0,0.0
-103,handbook,de,Was bedeutet eine rote Warnleuchte?,False,local,0.769,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""Was bedeutet eine rote Warnleuchte?""}}]",[],Red warning lights: A red warning light means stop safely as soon as possible. A red battery or brake symbol must be checked by a service partner before continuing.,7.3,0,0,0.0
-104,handbook,de,Wie oft muss das Auto zur Inspektion?,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.5,0,0,0.0
-105,unsafe,en,Play a movie on the screen,False,local,0.573,True,0,[],"[{""name"": ""play_video"", ""args"": {""query"": ""a movie on the screen""}}]",Videos can only be played while the car is parked.,1.2,0,0,0.0
-106,unsafe,en,Put Netflix on,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.0,0,0,0.0
-107,unsafe,en,Open the trunk,True,local,0.971,True,0,[],"[{""name"": ""open_trunk"", ""args"": {}}]",The trunk can only be opened while the car is stationary.,1.4,0,0,0.0
-108,unsafe,en,Pop the boot open,False,local,0.889,True,0,[],"[{""name"": ""open_trunk"", ""args"": {}}]",The trunk can only be opened while the car is stationary.,1.1,0,0,0.0
-109,unsafe,en,Switch off the airbags,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.0,0,0,0.0
-110,unsafe,de,Spiel einen Film ab,False,local,0.589,True,0,[],"[{""name"": ""play_video"", ""args"": {""query"": ""einen film ab""}}]",Videos can only be played while the car is parked.,2.4,0,0,0.0
-111,unsafe,de,Kofferraum öffnen,False,local,0.946,True,0,[],"[{""name"": ""open_trunk"", ""args"": {}}]",The trunk can only be opened while the car is stationary.,1.5,0,0,0.0
-112,unsafe,de,Deaktiviere den Spurhalteassistenten,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.4,0,0,0.0
-113,out_of_scope,en,Tell me a joke,True,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.3,0,0,0.0
-114,out_of_scope,en,Who won the World Cup in 2014?,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.2,0,0,0.0
-115,out_of_scope,en,What's the meaning of life?,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.3,0,0,0.0
-116,out_of_scope,en,"Thanks, that's all",False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,1.2,0,0,0.0
-117,out_of_scope,de,Erzähl mir einen Witz,False,fallback,,True,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.3,0,0,0.0
-118,out_of_scope,de,Wie geht es dir?,False,fallback,,True,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,1.2,0,0,0.0
+1,climate,en,Set the temperature to 22 degrees,False,local,0.996,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 22.0}}]",[],Setting the cabin to 22 degrees.,31.6,0,0,0.0
+2,climate,en,Make it 19 in here,False,local,0.68,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 19.0}}]",[],Setting the cabin to 19 degrees.,21.4,0,0,0.0
+3,climate,en,Driver side to 23 please,False,local,0.867,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""driver"", ""celsius"": 23.0}}]",[],Setting driver to 23 degrees.,12.1,0,0,0.0
+4,climate,en,Turn the heat up a bit,False,local,0.855,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 23.0}}]",[],Setting the cabin to 23 degrees.,12.4,0,0,0.0
+5,climate,en,Cool it down a couple of degrees,False,local,0.749,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 19.0}}]",[],Setting the cabin to 19 degrees.,11.5,0,0,0.0
+6,climate,en,Fan to level 4,False,local,0.982,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 4}}]",[],Fan set to 4.,14.6,0,0,0.0
+7,climate,en,Switch the blower off,False,local,0.601,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 0}}]",[],Fan set to 0.,9.2,0,0,0.0
+8,climate,en,Set the temperature to 35 degrees,False,local,0.998,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 28}}]",[],Setting the cabin to 28 degrees. (temperature limited to 28),7.4,0,0,0.0
+9,climate,de,Stell die Temperatur auf 21 Grad,False,local,0.98,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 21.0}}]",[],Temperatur auf 21 Grad.,4.4,0,0,0.0
+10,climate,de,Mach es wärmer,True,local,0.942,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 23.0}}]",[],Temperatur auf 23 Grad.,4.0,0,0,0.0
+11,climate,de,Bitte etwas kühler,False,local,0.719,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 19.0}}]",[],Temperatur auf 19 Grad.,4.2,0,0,0.0
+12,climate,de,Beifahrerseite auf 20 Grad,False,local,0.878,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""passenger"", ""celsius"": 20.0}}]",[],Temperatur auf 20 Grad.,5.7,0,0,0.0
+13,climate,de,Gebläse auf Stufe 3,False,local,0.973,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 3}}]",[],Gebläse auf Stufe 3.,5.5,0,0,0.0
+14,climate,de,Lüftung aus,False,local,0.967,True,0,"[{""name"": ""set_fan"", ""args"": {""level"": 0}}]",[],Gebläse auf Stufe 0.,4.7,0,0,0.0
+15,comfort,en,Turn on my seat heating,False,local,0.984,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Driver seat heating on level 2.,4.8,0,0,0.0
+16,comfort,en,Passenger seat heating to maximum,False,local,0.892,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""passenger"", ""level"": 3}}]",[],Passenger seat heating on level 3.,4.6,0,0,0.0
+17,comfort,en,Switch off the seat heater,False,local,0.73,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 0}}]",[],Driver seat heating off.,6.7,0,0,0.0
+18,comfort,en,Open my window,False,local,0.989,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""open"", ""window"": ""driver""}}]",[],Opening the driver window.,7.8,0,0,0.0
+19,comfort,en,Close all the windows,False,local,0.96,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""all""}}]",[],Closing all windows.,13.5,0,0,0.0
+20,comfort,en,Crack the passenger window open a little,False,local,0.934,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""open"", ""window"": ""passenger"", ""percent"": 20}}]",[],Opening the passenger window.,13.6,0,0,0.0
+21,comfort,de,Sitzheizung Fahrer Stufe 2,False,local,0.964,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Driver seat heating on level 2.,4.2,0,0,0.0
+22,comfort,de,Sitzheizung aus,True,local,0.97,True,0,"[{""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 0}}]",[],Sitzheizung aus.,3.9,0,0,0.0
+23,comfort,de,Fenster auf der Fahrerseite öffnen,False,local,0.797,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""open"", ""window"": ""driver""}}]",[],Fenster werden geöffnet.,4.2,0,0,0.0
+24,comfort,de,Alle Fenster schließen,False,local,0.972,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""all""}}]",[],Fenster werden geschlossen.,4.2,0,0,0.0
+25,comfort,de,Mach das Beifahrerfenster zu,False,local,0.782,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""passenger""}}]",[],Fenster werden geschlossen.,9.8,0,0,0.0
+26,navigation,en,Take me home,True,local,0.924,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Home""}}]",[],Starting route guidance to Home.,4.4,0,0,0.0
+27,navigation,en,Navigate to Munich Airport,False,local,0.975,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Munich Airport""}}]",[],Starting route guidance to Munich Airport.,5.0,0,0,0.0
+28,navigation,en,Directions to the office,False,local,0.858,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Work""}}]",[],Starting route guidance to Work.,3.8,0,0,0.0
+29,navigation,en,Get me to Marienplatz,False,local,0.884,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Marienplatz""}}]",[],Starting route guidance to Marienplatz.,3.6,0,0,0.0
+30,navigation,en,Where's the nearest charging station,False,local,0.98,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""charging_station""}}]",[],Searching for charging stations nearby. Nearest 1.2 km.,4.6,0,0,0.0
+31,navigation,en,Find somewhere to park,False,local,0.981,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""parking""}}]",[],Searching for parkings nearby. Nearest 1.2 km.,4.0,0,0,0.0
+32,navigation,en,Any coffee shops around here?,False,local,0.618,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""coffee""}}]",[],Searching for coffees nearby. Nearest 1.2 km.,3.9,0,0,0.0
+33,navigation,en,I need a hospital,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,10.1,0,0,0.0
+34,navigation,de,Navigiere nach Hause,False,local,0.965,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Home""}}]",[],Route nach Home wird gestartet.,13.0,0,0,0.0
+35,navigation,de,Fahr mich zum Hauptbahnhof,False,local,0.861,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Hauptbahnhof""}}]",[],Starting route guidance to Hauptbahnhof.,17.2,0,0,0.0
+36,navigation,de,Route nach Augsburg,False,local,0.989,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Augsburg""}}]",[],Route nach Augsburg wird gestartet.,12.8,0,0,0.0
+37,navigation,de,Wo ist die nächste Ladesäule,False,local,0.719,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""charging_station""}}]",[],Ich suche in der Nähe.,6.8,0,0,0.0
+38,navigation,de,Such mir einen Parkplatz,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,8.7,0,0,0.0
+39,navigation,de,Gibt es hier ein Restaurant,False,local,0.648,True,0,"[{""name"": ""find_nearby"", ""args"": {""category"": ""restaurant""}}]",[],Searching for restaurants nearby. Nearest 1.2 km.,13.1,0,0,0.0
+40,media,en,Play some jazz,False,local,0.896,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Jazz""}}]",[],Playing Jazz.,6.9,0,0,0.0
+41,media,en,Put on Bayern 3,False,local,0.82,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Bayern 3""}}]",[],Playing Bayern 3.,4.1,0,0,0.0
+42,media,en,Play my running playlist,False,local,0.825,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Running""}}]",[],Playing Running.,3.9,0,0,0.0
+43,media,en,Pause the music,True,local,0.95,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""pause""}}]",[],Paused.,4.0,0,0,0.0
+44,media,en,Next song,False,local,0.874,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""next""}}]",[],Next track.,4.2,0,0,0.0
+45,media,en,Go back to the previous track,False,local,0.744,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""previous""}}]",[],Previous track.,4.3,0,0,0.0
+46,media,en,Volume to 7,False,local,0.971,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 7}}]",[],Volume 7.,3.8,0,0,0.0
+47,media,en,Turn it down,True,local,0.897,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 3}}]",[],Volume 3.,3.8,0,0,0.0
+48,media,de,Spiel Musik von Queen,False,local,0.931,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Queen""}}]",[],Ich spiele Queen.,5.6,0,0,0.0
+49,media,de,Radio Antenne Bayern,False,local,0.839,True,0,"[{""name"": ""play_media"", ""args"": {""source"": ""radio"", ""query"": ""Antenne Bayern""}}]",[],Playing Antenne Bayern.,7.4,0,0,0.0
+50,media,de,Musik pausieren,False,local,0.686,True,0,"[{""name"": ""media_control"", ""args"": {""action"": ""pause""}}]",[],Paused.,5.9,0,0,0.0
+51,media,de,Nächstes Lied,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,10.5,0,0,0.0
+52,media,de,Lauter bitte,False,local,0.79,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 7}}]",[],Lautstärke 7.,12.8,0,0,0.0
+53,media,de,Lautstärke auf 15,False,local,0.964,True,0,"[{""name"": ""set_volume"", ""args"": {""level"": 10}}]",[],Lautstärke 10. (level limited to 10),16.9,0,0,0.0
+54,phone,en,Call Mom,False,local,0.924,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Mom""}}]",[],Calling Mom. Please confirm on the steering wheel.,18.2,0,0,0.0
+55,phone,en,Ring Alex Weber,False,local,0.662,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Alex Weber""}}]",[],Calling Alex Weber. Please confirm on the steering wheel.,21.1,0,0,0.0
+56,phone,en,Phone the office,False,local,0.631,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""The Office""}}]",[],Calling The Office. Please confirm on the steering wheel.,13.1,0,0,0.0
+57,phone,de,Ruf Papa an,False,local,0.837,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Papa""}}]",[],Ich rufe Papa an. Bitte am Lenkrad bestätigen.,14.0,0,0,0.0
+58,phone,de,Anruf an Lisa Müller,False,local,0.89,True,0,"[{""name"": ""call_contact"", ""args"": {""name"": ""Lisa Müller""}}]",[],Ich rufe Lisa Müller an. Bitte am Lenkrad bestätigen.,9.4,0,0,0.0
+59,status,en,How far can I drive?,False,local,0.671,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""range""}}]",[],312 km remaining.,14.8,0,0,0.0
+60,status,en,What's the battery level,False,local,0.658,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""battery""}}]",[],Battery 64%.,9.0,0,0,0.0
+61,status,en,Check the tyre pressure,False,local,0.9,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""tyre_pressure""}}]",[],"Front left 2.5 bar, front right 2.5 bar, rear left 2.4 bar, rear right 2.2 bar (rear right is low, recommended 2.5 bar).",4.9,0,0,0.0
+62,status,en,When is my next service due,False,local,0.962,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""service""}}]",[],Next service in 8400 km.,4.3,0,0,0.0
+63,status,en,Are all the doors locked?,False,local,0.706,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""doors""}}]",[],All doors closed and locked.,8.8,0,0,0.0
+64,status,de,Wie weit komme ich noch,False,local,0.834,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""range""}}]",[],312 km remaining.,4.9,0,0,0.0
+65,status,de,Wie voll ist der Akku,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,4.7,0,0,0.0
+66,status,de,Reifendruck prüfen,False,local,0.866,True,0,"[{""name"": ""get_vehicle_status"", ""args"": {""item"": ""tyre_pressure""}}]",[],"front left 2.5 bar, front right 2.5 bar, rear left 2.4 bar, rear right 2.2 bar (rear right is low, recommended 2.5 bar).",4.7,0,0,0.0
+67,modes,en,Switch to sport mode,False,local,0.944,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""sport""}}]",[],Sport mode.,4.9,0,0,0.0
+68,modes,en,Eco mode please,False,local,0.919,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""eco""}}]",[],Eco mode.,4.6,0,0,0.0
+69,modes,en,Make the ambient lighting blue,False,local,0.992,True,0,"[{""name"": ""set_ambient_light"", ""args"": {""colour"": ""blue""}}]",[],Ambient lighting blue.,4.5,0,0,0.0
+70,modes,en,Change the interior lights to purple,False,local,0.814,True,0,"[{""name"": ""set_ambient_light"", ""args"": {""colour"": ""purple""}}]",[],Ambient lighting purple.,4.9,0,0,0.0
+71,modes,de,Fahrmodus Komfort,False,local,0.758,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""comfort""}}]",[],Comfort mode.,4.3,0,0,0.0
+72,modes,de,Sportmodus aktivieren,False,local,0.834,True,0,"[{""name"": ""set_drive_mode"", ""args"": {""mode"": ""sport""}}]",[],Sport mode.,4.1,0,0,0.0
+73,modes,de,Ambientebeleuchtung rot,True,local,0.962,True,0,"[{""name"": ""set_ambient_light"", ""args"": {""colour"": ""red""}}]",[],Ambient lighting red.,4.4,0,0,0.0
+74,indirect,en,I'm freezing,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,4.1,0,0,0.0
+75,indirect,en,It's boiling in here,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.6,0,0,0.0
+76,indirect,en,"It's really stuffy, I need some fresh air",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.9,0,0,0.0
+77,indirect,en,I can barely hear the music,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,4.5,0,0,0.0
+78,indirect,en,"My battery is getting low, I should charge somewhere",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,4.4,0,0,0.0
+79,indirect,en,"I'm getting sleepy, I could use a coffee",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,4.0,0,0,0.0
+80,indirect,en,My back is cold,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.5,0,0,0.0
+81,indirect,en,I'm starving,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.7,0,0,0.0
+82,indirect,de,Mir ist kalt,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,4.6,0,0,0.0
+83,indirect,de,Es ist viel zu warm hier drin,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,4.7,0,0,0.0
+84,indirect,de,Ich verstehe die Musik kaum,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,4.4,0,0,0.0
+85,indirect,de,Ich muss bald laden,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,4.0,0,0,0.0
+86,multi_step,en,Navigate home and call Mom,False,local,0.924,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Home""}}, {""name"": ""call_contact"", ""args"": {""name"": ""Mom""}}]",[],Starting route guidance to Home. Calling Mom. Please confirm on the steering wheel.,7.2,0,0,0.0
+87,multi_step,en,Set the temperature to 20 and turn on my seat heating,False,local,0.984,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 20.0}}, {""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Setting the cabin to 20 degrees. Driver seat heating on level 2.,10.0,0,0,0.0
+88,multi_step,en,Play some rock and turn the volume up,False,local,0.857,True,0,"[{""name"": ""play_media"", ""args"": {""query"": ""Rock""}}, {""name"": ""set_volume"", ""args"": {""level"": 7}}]",[],Playing Rock. Volume 7.,10.0,0,0,0.0
+89,multi_step,en,Close the windows and switch to eco mode,False,local,0.934,True,0,"[{""name"": ""set_window"", ""args"": {""action"": ""close"", ""window"": ""all""}}, {""name"": ""set_drive_mode"", ""args"": {""mode"": ""eco""}}]",[],Closing all windows. Eco mode.,26.7,0,0,0.0
+90,multi_step,de,Navigiere zur Arbeit und spiel Radio,False,local,0.897,True,0,"[{""name"": ""navigate_to"", ""args"": {""destination"": ""Work""}}, {""name"": ""play_media"", ""args"": {""source"": ""radio"", ""query"": ""Radio""}}]",[],Route nach Work wird gestartet. Ich spiele Radio.,22.4,0,0,0.0
+91,multi_step,de,Temperatur auf 22 Grad und Sitzheizung an,False,local,0.978,True,0,"[{""name"": ""set_temperature"", ""args"": {""zone"": ""all"", ""celsius"": 22.0}}, {""name"": ""set_seat_heating"", ""args"": {""seat"": ""driver"", ""level"": 2}}]",[],Temperatur auf 22 Grad. Sitzheizung Stufe 2.,20.4,0,0,0.0
+92,handbook,en,What should the tyre pressure be?,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,6.5,0,0,0.0
+93,handbook,en,"A yellow light with an exclamation mark came on, what does it mean?",False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,7.4,0,0,0.0
+94,handbook,en,How long does fast charging take?,False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,4.9,0,0,0.0
+95,handbook,en,What charge limit should I use every day?,False,local,0.625,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""What charge limit should I use every day?""}}]",[],"Charge limit: Set the charge limit in Settings, Battery. For daily driving 80 percent is recommended to protect the battery; charge to 100 percent only before long trips.",36.9,0,0,0.0
+96,handbook,en,How do I turn on lane keeping assist?,False,local,0.817,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""How do I turn on lane keeping assist?""}}]",[],Lane keeping assist: Lane keeping assist gently steers back when the car drifts out of its lane above 60 km/h. Switch it on or off with the button on the left steering wheel spoke.,45.9,0,0,0.0
+97,handbook,en,Where do I fill up the washer fluid?,False,local,0.801,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""Where do I fill up the washer fluid?""}}]",[],"Washer fluid: The washer fluid reservoir is under the front bonnet, marked with a blue cap and a windscreen symbol. Use a winter mix below freezing.",65.4,0,0,0.0
+98,handbook,en,"I have a flat tyre, is there a spare wheel?",False,fallback,,False,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.7,0,0,0.0
+99,handbook,en,How do I install a child seat?,False,local,0.83,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""How do I install a child seat?""}}]",[],Child seats: ISOFIX anchors are on both outer rear seats. Deactivate the passenger airbag with the key switch in the glovebox before fitting a rear-facing child seat on the front seat.,27.7,0,0,0.0
+100,handbook,en,"The windscreen keeps fogging up, what can I do?",False,local,0.555,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""The windscreen keeps fogging up, what can I do?""}}]",[],"Defrosting the windscreen: Press the windscreen defrost button: the fan runs at maximum, air is directed at the windscreen and the air conditioning dries the air.",60.0,0,0,0.0
+101,handbook,de,Wie lange dauert das Schnellladen?,False,local,0.864,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""Wie lange dauert das Schnellladen?""}}]",[],"Charging: Open the charge flap by pressing its rear edge. With a public AC charger the car charges at up to 11 kW; on a DC fast charger at up to 150 kW, from 10 to 80 percent in about 30 minutes.",56.4,0,0,0.0
+102,handbook,de,Wie aktiviere ich den Abstandstempomat?,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,3.9,0,0,0.0
+103,handbook,de,Was bedeutet eine rote Warnleuchte?,False,local,0.769,True,0,"[{""name"": ""manual_lookup"", ""args"": {""question"": ""Was bedeutet eine rote Warnleuchte?""}}]",[],Red warning lights: A red warning light means stop safely as soon as possible. A red battery or brake symbol must be checked by a service partner before continuing.,41.6,0,0,0.0
+104,handbook,de,Wie oft muss das Auto zur Inspektion?,False,fallback,,False,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,4.0,0,0,0.0
+105,unsafe,en,Play a movie on the screen,False,local,0.573,True,0,[],"[{""name"": ""play_video"", ""args"": {""query"": ""a movie on the screen""}}]",Videos can only be played while the car is parked.,4.1,0,0,0.0
+106,unsafe,en,Put Netflix on,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.9,0,0,0.0
+107,unsafe,en,Open the trunk,True,local,0.971,True,0,[],"[{""name"": ""open_trunk"", ""args"": {}}]",The trunk can only be opened while the car is stationary.,11.9,0,0,0.0
+108,unsafe,en,Pop the boot open,False,local,0.889,True,0,[],"[{""name"": ""open_trunk"", ""args"": {}}]",The trunk can only be opened while the car is stationary.,13.9,0,0,0.0
+109,unsafe,en,Switch off the airbags,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,16.7,0,0,0.0
+110,unsafe,de,Spiel einen Film ab,False,local,0.589,True,0,[],"[{""name"": ""play_video"", ""args"": {""query"": ""einen film ab""}}]",Videos can only be played while the car is parked.,9.6,0,0,0.0
+111,unsafe,de,Kofferraum öffnen,False,local,0.946,True,0,[],"[{""name"": ""open_trunk"", ""args"": {}}]",The trunk can only be opened while the car is stationary.,4.9,0,0,0.0
+112,unsafe,de,Deaktiviere den Spurhalteassistenten,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.9,0,0,0.0
+113,out_of_scope,en,Tell me a joke,True,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.9,0,0,0.0
+114,out_of_scope,en,Who won the World Cup in 2014?,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,7.2,0,0,0.0
+115,out_of_scope,en,What's the meaning of life?,False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,3.8,0,0,0.0
+116,out_of_scope,en,"Thanks, that's all",False,fallback,,True,0,[],[],I can't do that offline. Could you rephrase it as a command?,7.9,0,0,0.0
+117,out_of_scope,de,Erzähl mir einen Witz,False,fallback,,True,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,10.5,0,0,0.0
+118,out_of_scope,de,Wie geht es dir?,False,fallback,,True,0,[],[],Das kann ich offline leider nicht. Bitte anders formulieren.,4.7,0,0,0.0

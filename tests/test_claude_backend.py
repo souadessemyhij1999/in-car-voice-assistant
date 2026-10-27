@@ -108,3 +108,9 @@ def test_unknown_function_cannot_run():
     backend, _ = make_backend(script)
     r = backend.handle("Switch off the airbags", Vehicle(VehicleState(speed_kmh=100)))
     assert r["executed"] == [] and r["blocked"][0]["name"] == "disable_airbag"
+
+
+def test_empty_answer_gets_a_fallback_reply():
+    backend, _ = make_backend([message([], "max_tokens", 900, 1024)])
+    r = backend.handle("Ich verstehe die Musik kaum", Vehicle(VehicleState(speed_kmh=50)))
+    assert r["executed"] == [] and r["reply"].startswith("Sorry")

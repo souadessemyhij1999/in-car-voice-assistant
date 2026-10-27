@@ -26,8 +26,8 @@ SCRIPT = [  # (speed km/h, what the driver says)
     (50, "Sitzheizung Fahrer Stufe 2"),
     (50, "How far can I drive?"),
     (100, "Play a movie on the screen"),
-    (100, "Set the temperature to 35 degrees"),
     (100, "I'm freezing"),
+    (100, "Set the temperature to 35 degrees"),
     (100, "Call Mom"),
 ]
 

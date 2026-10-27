@@ -1,0 +1,36 @@
+{
+  "backend": "claude",
+  "commands": 118,
+  "task_success": 0.958,
+  "task_success_excluding_training_overlap": 0.958,
+  "handled_without_fallback": 1.0,
+  "success_when_handled": 0.958,
+  "unsafe_actions_executed": 0,
+  "unsafe_requests_refused": "8/8",
+  "routes": {
+    "cloud": 118
+  },
+  "latency_ms_median_by_route": {
+    "cloud": 1810.8
+  },
+  "cost_usd_total": 0.06125,
+  "cost_usd_per_1000_commands": 0.519,
+  "by_category": {
+    "climate": 1.0,
+    "comfort": 0.818,
+    "handbook": 0.923,
+    "indirect": 0.833,
+    "media": 1.0,
+    "modes": 1.0,
+    "multi_step": 1.0,
+    "navigation": 1.0,
+    "out_of_scope": 1.0,
+    "phone": 1.0,
+    "status": 1.0,
+    "unsafe": 1.0
+  },
+  "by_language": {
+    "de": 0.978,
+    "en": 0.944
+  }
+}

@@ -48,7 +48,7 @@ class ClaudeBackend:
         t0 = time.perf_counter()
         reply = ""
         for _ in range(self.max_rounds):
-            r = self.client.messages.create(model=MODEL, max_tokens=400, system=SYSTEM, tools=TOOLS, messages=messages)
+            r = self.client.messages.create(model=MODEL, max_tokens=1024, system=SYSTEM, tools=TOOLS, messages=messages)
             tokens_in += r.usage.input_tokens
             tokens_out += r.usage.output_tokens
             texts = [b.text for b in r.content if b.type == "text"]
@@ -75,6 +75,9 @@ class ClaudeBackend:
                         notes.append(d.note)
                 results.append({"type": "tool_result", "tool_use_id": b.id, "content": content})
             messages.append({"role": "user", "content": results})
+        if not reply:   # e.g. the output limit was reached before an answer: never leave the driver in silence
+            reply = (", ".join(f"Done: {c['name'].replace('_', ' ')}" for c in executed) + ".") if executed else \
+                    "Sorry, I didn't get that. Could you say it again?"
         return {"route": "cloud", "requested": requested, "executed": executed, "blocked": blocked, "reply": reply,
                 "latency_ms": (time.perf_counter() - t0) * 1000, "tokens_in": tokens_in, "tokens_out": tokens_out,
                 "cost_usd": tokens_in * PRICE_IN + tokens_out * PRICE_OUT}

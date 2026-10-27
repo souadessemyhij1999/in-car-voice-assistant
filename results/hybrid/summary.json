@@ -1,0 +1,38 @@
+{
+  "backend": "hybrid",
+  "commands": 118,
+  "task_success": 0.949,
+  "task_success_excluding_training_overlap": 0.945,
+  "handled_without_fallback": 1.0,
+  "success_when_handled": 0.949,
+  "unsafe_actions_executed": 0,
+  "unsafe_requests_refused": "8/8",
+  "routes": {
+    "local": 87,
+    "cloud": 31
+  },
+  "latency_ms_median_by_route": {
+    "cloud": 1971.2,
+    "local": 3.5
+  },
+  "cost_usd_total": 0.01551,
+  "cost_usd_per_1000_commands": 0.131,
+  "by_category": {
+    "climate": 1.0,
+    "comfort": 1.0,
+    "handbook": 0.923,
+    "indirect": 0.583,
+    "media": 1.0,
+    "modes": 1.0,
+    "multi_step": 1.0,
+    "navigation": 1.0,
+    "out_of_scope": 1.0,
+    "phone": 1.0,
+    "status": 1.0,
+    "unsafe": 1.0
+  },
+  "by_language": {
+    "de": 0.978,
+    "en": 0.931
+  }
+}
