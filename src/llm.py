@@ -34,7 +34,7 @@ SYSTEM = """You are the voice assistant of an electric car. The driver speaks to
 class ClaudeBackend:
     def __init__(self, max_rounds=3):
         import anthropic  # imported here so the offline parts run without the package
-        self.client = anthropic.Anthropic()
+        self.client = anthropic.Anthropic(api_key=(os.environ.get("ANTHROPIC_API_KEY") or "").split()[0])
         self.guard = SafetyGuard()
         self.max_rounds = max_rounds
 
