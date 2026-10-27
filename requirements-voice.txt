@@ -1,0 +1,4 @@
+# Optional: microphone input and spoken replies (python src/assistant.py --voice)
+faster-whisper>=1.0      # speech-to-text; downloads the Whisper model on first use
+sounddevice>=0.4         # microphone
+pyttsx3>=2.90            # offline text-to-speech (uses espeak on Linux, SAPI on Windows, NSSpeech on macOS)
